@@ -1,0 +1,2 @@
+SITE=diet.kemitchell.com
+rsync -4 -a --delete --exclude .git --exclude deploy ./ $SITE:/var/www/$SITE/
